@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height :3rem;
+}
+body{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.img{
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 40px;
+     margin-top: 20px;
+}
+#yours{
+    font-size: 30px;
+}
+#comp{
+    font-size: 30px;
+}
+.msg{
+    margin-top: 10px;
+}
